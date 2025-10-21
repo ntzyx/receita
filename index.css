@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #2e004f; /* roxo escuro */
+    color: #f0e6f6; /* lilás claro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #5a0066; /* magenta escuro */
+    border-bottom: 5px solid #b3009e;
+    border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.ingredients, .steps {
+    background: #4a0052; /* roxo médio */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 700px;
+    box-shadow: 0 0 15px #b3009e;
+}
+
+h2 {
+    text-align: center;
+    color: #ffccff; /* lilás suave */
+}
+
+ul, ol {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.image-placeholder {
+    height: 200px;
+    margin-top: 15px;
+    background: #660080; /* magenta escuro */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #5a0066;
+    border-top: 5px solid #b3009e;
+}
